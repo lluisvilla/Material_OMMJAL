@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Álgebra</title>
+  <title>Teoría de Números</title>
 
   <style>
     body {
@@ -13,20 +13,25 @@
     }
 
     h1 {
-      color: #2e7d32;
+      color: #f9a825;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
     }
 
     .contenedor {
       display: grid;
       gap: 15px;
-      max-width: 600px;
+      max-width: 650px;
       margin: 40px auto;
     }
 
     .boton {
       display: block;
-      background: #2e7d32;
-      color: white;
+      background: #f9a825;
+      color: #222;
       padding: 16px;
       border-radius: 12px;
       text-decoration: none;
@@ -47,18 +52,38 @@
       font-weight: bold;
       text-decoration: none;
     }
+
+    .volver:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>Álgebra</h1>
+  <h1>Teoría de Números</h1>
   <p>Selecciona un PDF.</p>
 
   <div class="contenedor">
-    <a class="boton" href="pdfs/algebra/01-introduccion.pdf" target="_blank">01. Introducción</a>
-    <a class="boton" href="pdfs/algebra/02-ecuaciones.pdf" target="_blank">02. Ecuaciones</a>
-    <a class="boton" href="pdfs/algebra/03-polinomios.pdf" target="_blank">03. Polinomios</a>
+    <a class="boton" href="pdfs/numeros/01-divisibilidad.pdf" target="_blank">
+      01. Divisibilidad
+    </a>
+
+    <a class="boton" href="pdfs/numeros/02-congruencias.pdf" target="_blank">
+      02. Congruencias
+    </a>
+
+    <a class="boton" href="pdfs/numeros/03-primos.pdf" target="_blank">
+      03. Números primos
+    </a>
+
+    <a class="boton" href="pdfs/numeros/04-teorema-de-fermat.pdf" target="_blank">
+      04. Pequeño teorema de Fermat
+    </a>
+
+    <a class="boton" href="pdfs/numeros/05-funcion-de-euler.pdf" target="_blank">
+      05. Función de Euler
+    </a>
   </div>
 
   <a class="volver" href="index.html">← Volver al inicio</a>
